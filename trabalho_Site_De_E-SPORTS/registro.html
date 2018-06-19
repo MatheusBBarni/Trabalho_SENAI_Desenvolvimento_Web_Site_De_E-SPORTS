@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="imagens/thumb/logoprincipalt.jpg" type="image/x-icon"/>
+	<link rel="stylesheet" href="css/principal.css">
+</head>
+<body>
+	<div id="header">
+		<ul class="lista">
+		<img src="imagens/original/logoprincipal.png" align="center">
+		<span> | </span>
+		<a href="trabalhoPgPrincipal.html">Home</a>
+		<span> | </span>
+		<a href="registro.html" target="_blank" style="color: black;"> Cadastre-se para não perder nenhuma noticia </a>
+		<span> | </span>
+		<a href="csgo/csgoprincipal.html">Counter-Strike: Global Offensive</a>
+		<span> | </span>
+		<a href="lol/lolpg.html">League of Legends</a>
+		<span> | </span>
+		<a href="sobre.html">Sobre nós</a>
+		<span> | </span>
+	</ul>
+	</div>
+
+	<pre> </pre>
+
+	<div id="registro">
+		<fieldset>
+			<h3>Insira seus dados abaixo para não perder nenhuma noticia:</h3>
+
+			<ol>
+				<li>
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome">
+				</li>
+				<li>
+					<label for="email">Email:</label>
+					<input type="text" name="email">
+				</li>
+				<li>
+					<select>
+						<option value="homem">Homem</option>
+						<option value="mulher">Mulher</option>
+						<option value="indefinido">Indefinido</option>
+					</select>
+				</li>
+				<li>
+					<label>Qual sua idade ?</label>
+					<input type="radio" name="17-"> menos de 17
+					<input type="radio" name="18+"> mais de 18
+				</li>
+				<li>
+					<p>O que você achou do site ?</p>
+					<textarea name="opniao" cols="50" rows="10"></textarea>
+				</li>
+				<li>
+					<p>Envie sua foto:</p>
+					<h5>*opcional</h5>
+					<form>
+						<fieldset method="post" enctype="multipart/form-data">
+							<input type="file" name="foto">
+						</fieldset>
+					</form>
+				</li>
+			</ol>
+		</fieldset>
+		<pre> 	</pre>
+		<input type="submit">
+		<input type="reset">
+	</div>
+
+
+
+
+</body>
+</html>

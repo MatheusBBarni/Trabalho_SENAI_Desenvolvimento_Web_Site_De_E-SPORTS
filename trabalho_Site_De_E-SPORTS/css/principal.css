@@ -1,0 +1,195 @@
+body{
+
+	background-image:url("../imagens/original/esport.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+
+
+/*#HEADER CSS COMEÇO*/
+
+ul.lista {
+	list-style-type: none;
+	display: inline;
+}
+
+.lista a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.lista span {
+	color: white;
+}
+
+.lista a:hover {
+	text-decoration-line: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+#header{
+	background-color: rgb(255,0, 0);
+}
+
+
+/*HEADER CSS FINAL*/
+
+
+/*CSS PAGINA PRINCIPAL COMEÇO*/
+
+#noticias {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	border: 2px dashed black;
+	font-family: 'Titan One', cursive;
+}
+
+#noticias a {
+	color: white;
+	text-decoration: none;
+}
+
+#noticias a:hover {
+	color: #4992e5;
+	text-decoration: underline;
+}
+
+#noticias h2 {
+	text-align: center;
+}
+
+.endereco {
+	color: white;
+}
+
+/*CSS PAGINA PRINCIPAL FINAL*/
+
+
+/*CSS SOBRE PAGINA CSS COMEÇO*/
+
+#sobre {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px dashed black;
+}
+
+.iweb {
+	color: white;
+	font-size: 100px;
+}
+
+#coracao {
+	position: relative;
+	width: 100px;
+	margin: 0 50px;
+	animation: batida 1.5s infinite;
+}
+
+@keyframes batida {
+    0%{
+      transform: scale(1);
+    }
+
+    15%{
+      transform: scale(1.25);
+    }
+
+    25%{
+      transform: scale(1.15);
+    }
+
+    35%{
+      transform: scale(1.25);
+    }
+
+    100%{
+      transform: scale(1);
+    }
+}
+
+/*CSS SOBRE PAGINA CSS FINAL*/
+
+/*CSS PAGINA DE REGISTRO COMEÇO*/
+
+#registro {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*CSS PAGINA DE REGISTRO FINAL*/
+
+/*CSS CSGO PAGINA INICIO*/
+
+.noticiascsgo {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-family: sans-serif;
+	border: 2px dashed black;
+}
+
+.noticiascsgo a {
+	color: white;
+	text-decoration: none;
+}
+
+.noticiascsgo a:hover {
+	text-decoration-line: underline;
+	color: #4992e5;
+}
+
+.noticiascsgo h2 {
+	text-align: center;
+	padding: 5px;
+}
+
+#tabelaWesg table {
+	border: 1px dashed;
+	border-color: #5892ef;
+
+}
+
+.coluna1 {
+	color: red;
+}
+
+.coluna2 {
+	color: #e9fc1e
+}
+
+
+/*CSS CSGO PAGINA FINAL*/
+
+
+/*CSS LOL PAGINA INICIAL*/
+
+.noticiaslol {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-family: cursive;
+	border: 2px dashed black;
+}
+
+.noticiaslol a {
+	color: white;
+	text-decoration: none;
+}
+
+.noticiaslol a:hover {
+	color: #4992e5;
+	text-decoration: underline;
+}
+
+.noticiaslol h2 {
+	text-align: center;
+	margin: 5px;
+}
+
+/*CSS LOL PAGINA FINAL*/
